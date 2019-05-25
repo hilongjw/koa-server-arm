@@ -11,7 +11,7 @@ async function getSocTemp () {
   return (result / 1000).toFixed(2)
 }
 
-async function getSocTempSync () {
+function getSocTempSync () {
   const content = fs.readFileSync('/etc/armbianmonitor/datasources/soctemp', 'utf8')
   const result = Number(content.trim())
   return (result / 1000).toFixed(2)
