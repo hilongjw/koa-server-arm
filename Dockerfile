@@ -1,4 +1,4 @@
-FROM arm64v8/node:10.15.3-stretch
+FROM arm64v8/node:10.15.3-stretch-slim
 MAINTAINER Awe <hilongjw@gmail.com>
 
 ENV PORT 9999
