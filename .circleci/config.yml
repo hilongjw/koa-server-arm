@@ -32,7 +32,7 @@ jobs:
           name: Run tests
           command: echo 'skip-test'
       - store_artifacts:
-          path: /*
+          path: /
 
 workflows:
   # Below is the definition of your workflow.
